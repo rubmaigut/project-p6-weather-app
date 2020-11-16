@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Change the title to your own -->
+  <title>My weather app</title>
+  
+  <!-- Connection to the CSS file -->
+  <link rel="stylesheet" href="./style.css">
+  
+  <!-- Link to Montserrat which is used in our design. Feel free to
+  use another one or remove this if you don't want a google font. -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<!-- We gave the body an id to be able to change the background
+color in the JavaScript file later on. -->
+<body id="body">
+
+  <!-- We gave this section and the descendant divs a class name
+  to be able to style it according to the design. Feel free to
+  take a look in the CSS file and change whatvever you like. -->
+  <section class="today">
+    <div class="todays-numbers">
+      <!-- We give these paragraphs id's so that we can change the
+      innerHTML after we fetched the weather data in the JavaScript. -->
+      <p>
+        <span id="shortDescription"></span> | <span id="temperature"></span>
+      </p>
+      <p id="sunrise"></p>
+      <p id="sunset"></p>
+    </div>
+    <div class="todays-description">
+      <!-- Here's another id that we will use to change the source
+      of this image after we've fetched the weather data. -->
+      <img id="icon"/>
+      <!-- Another id to be able to change the description
+      (clouds, clear, rain etc). -->
+      <h2 id="description"></h2>
+    </div>
+  </section>
+
+  <!-- Another id to be able to add the forecast data to our HTML. -->
+  <section id="forecast" class="forecast">
+  </section>
+
+  <!-- Connection to the JavaScript file -->
+  <script type="text/javascript" src="./weather.js"></script>
+</body>
+</html>
