@@ -1,4 +1,4 @@
-//HTML elements
+// All the DOM selectors stored as short variables
 const shortDescription = document.getElementById("shortDescription")
 const body = document.getElementById("body")
 const temperature = document.getElementById("temperature")
@@ -8,8 +8,6 @@ const description = document.getElementById("description")
 const forecast = document.getElementById("forecast")
 const icon = document.getElementById("icon")
 
-//Begin with fetching the data and logging it to the console.
-//Take a look at the data and look for what you need. Maybe start
-//with the short description and the temperature. After you've found
-//what you were looking for, you can change the innerHTML of the
-//elements in the top of this file
+// Global variables
+const API_KEY = "12345"
+let city = "Stockholm"

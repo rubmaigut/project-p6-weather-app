@@ -18,18 +18,18 @@
 <!-- We gave the body an id to be able to change the background
 color in the JavaScript file later on. Change the class to "rainy"
 and see what happens. PS. You can remove it so it starts out without
-any class at all. We will add classes in the JavaScript file instead-->
+any class at all. We will add classes in the JavaScript file instead -->
 <body id="body" class="sunny">
 
   <!-- We gave this section and the descendant divs a class name
   to be able to style it according to the design. Feel free to
-  take a look in the CSS file and change whatvever you like. -->
+  take a look in the CSS file and change whatever you like. -->
   <section class="today">
     <div class="todays-numbers">
       <!-- We give these paragraphs id's so that we can change the
       innerHTML after we fetched the weather data in the JavaScript.
-      We put in some dummy data so that you can see how it will look.
-      Remove the dummy data with actual data from the API-->
+      We put in some dummy data so that you can see how it will look,
+      but we will replace this with the data from the API -->
       <p>
         <span id="shortDescription">clear</span> | <span id="temperature"> 23 °C</span>
       </p>
@@ -40,8 +40,7 @@ any class at all. We will add classes in the JavaScript file instead-->
       <!-- Here's another id that we will use to change the source
       of this image after we've fetched the weather data. -->
       <img src="./assets/sun.svg" id="icon"/>
-      <!-- Another id to be able to change the description
-      (clouds, clear, rain etc). -->
+      <!-- Another id to be able to change the description -->
       <h2 id="description">Get your sunnies on. Stockholm is looking rather great today.</h2>
     </div>
   </section>
