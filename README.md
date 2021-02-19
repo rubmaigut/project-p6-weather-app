@@ -1,13 +1,27 @@
 # Weather App
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+In this weather app, you have a view of the weather in my favorite cities.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I started to understand the best way to fetch the data and how to print the information.
+
+I have used regular js methods and techniques such as:
+
+- Fetch data
+- Arrow functions
+- if statements
+- for each loop
+- array and object manipulation
+
+I have decided to replace the way to select the list of cities creating a modal over the name of the city, in this way the data is loaded and deleted when i choose a city from the list.
+
+To solve this approach i have to create a generic fuction to call the fectches when i choose the city.
+
+If i would have more time i would:
+
+- add the Geolocation API
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://weather-app-mm.netlify.app/
